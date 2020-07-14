@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+.xng-breadcrumb-root {
+    padding: 8px 16px;
+    display: inline;
+    border-radius: 0;
+}
+
+label.xng-breadcrumb-trail {
+    margin-bottom: 0;
+    color: orange;
+}
+
+.xng-breadcrumb-separator {
+    padding: 0 0;
+}
+
+.form-control {
+    color: black;
+    &:focus {
+        color: black;
+    }
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 420px;
+    padding: 15px;
+    margin: auto;
+  }
+
+.StripeElement {
+    height: 3.125em;
+}
